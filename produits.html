@@ -3,24 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Découvrez les produits du terroir de la coopérative Thimdrine : miel, huile d'olive et confitures.">
+  <meta name="description" content="Découvrez les produits du terroir de la coopérative Thimdrine : miels, huiles d'olive, confiture et coffret cadeau.">
   <title>Nos produits | Thimdrine</title>
-  <link rel="icon" href="images/logo.svg">
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@700&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <!-- En-tête -->
   <header class="entete">
     <div class="conteneur entete-contenu">
-      <a class="logo" href="index.html">
-        <img src="images/logo.svg" alt="Logo Thimdrine">
-        Thimdrine
-      </a>
-      <nav class="menu">
+      <a class="logo" href="index.html"><img src="images/logo.svg" alt="">Thimdrine</a>
+      <nav class="menu" aria-label="Navigation principale">
         <a href="index.html">Accueil</a>
-        <a class="actif" href="produits.html">Nos produits</a>
+        <a class="actif" href="produits.html" aria-current="page">Nos produits</a>
         <a href="a-propos.html">À propos</a>
         <a href="contact.html">Contact</a>
       </nav>
@@ -30,109 +26,84 @@
   <main>
     <section class="section section-blanc text-center">
       <div class="conteneur">
-        <p class="surtitre">LES SAVEURS DE THIMDRINE</p>
+        <p class="surtitre">Les saveurs de Thimdrine</p>
         <h1>Les produits de notre terroir</h1>
-        <p class="intro max-w-800 mx-auto">Miel de thym, huile d'olive et confiture de figue de barbarie : des produits sans additifs, récoltés, transformés et conditionnés par les femmes de la coopérative.</p>
+        <p class="intro max-w-800 mx-auto">Miel, huile d'olive et confiture de figue de barbarie : des produits sans additifs, récoltés, transformés et conditionnés par les femmes de la coopérative.</p>
         <p class="catalog-info">6 produits disponibles au catalogue</p>
       </div>
     </section>
-
     <section class="section">
       <div class="conteneur">
         <h2>À découvrir aujourd'hui</h2>
-        
         <div class="cartes">
-          <!-- Produit 1 -->
-          <article class="carte">
-            <div class="carte-img-container bg-miel">
-                <img src="images/miel-thym.svg" alt="Miel de thym">
+        <article class="carte">
+          <img src="images/miel-thym.svg" alt="Pot de miel de thym">
+          <div class="carte-texte">
+            <h3>Miel de thym</h3>
+            <p>Un miel ambré au goût puissant, récolté dans les collines du Rif.</p>
+            <div class="carte-bas">
+              <p class="prix">180 DH <span>pot de 500 g</span></p>
+          <a class="bouton bouton-contour btn-sm" href="contact.html">Demander</a>
             </div>
-            <div class="carte-texte">
-              <h3>Miel de thym</h3>
-              <p>Un miel ambré au goût puissant, récolté dans les collines du Rif.</p>
-              <div class="carte-bas">
-                  <p class="prix">180 DH <span>pot de 500 g</span></p>
-                  <a href="contact.html" class="bouton bouton-contour btn-sm">Demander</a>
-              </div>
+          </div>
+        </article>
+        <article class="carte">
+          <img src="images/huile-olive.svg" alt="Bouteille d'huile d'olive extra vierge">
+          <div class="carte-texte">
+            <h3>Huile d'olive extra vierge</h3>
+            <p>Première pression à froid, fruitée et légèrement poivrée.</p>
+            <div class="carte-bas">
+              <p class="prix">90 DH <span>bouteille de 1 L</span></p>
+          <a class="bouton bouton-contour btn-sm" href="contact.html">Demander</a>
             </div>
-          </article>
-
-          <!-- Produit 2 -->
-          <article class="carte">
-            <div class="carte-img-container bg-thym">
-                <img src="images/huile-olive.svg" alt="Huile d'olive extra vierge">
+          </div>
+        </article>
+        <article class="carte">
+          <img src="images/confiture-figue.svg" alt="Pot de confiture de figue de barbarie">
+          <div class="carte-texte">
+            <h3>Confiture de figue de barbarie</h3>
+            <p>Douce et parfumée, préparée en petites quantités chaque été.</p>
+            <div class="carte-bas">
+              <p class="prix">45 DH <span>pot de 350 g</span></p>
+          <a class="bouton bouton-contour btn-sm" href="contact.html">Demander</a>
             </div>
-            <div class="carte-texte">
-              <h3>Huile d'olive extra vierge</h3>
-              <p>Première pression à froid, fruitée et légèrement piquante.</p>
-              <div class="carte-bas">
-                  <p class="prix">90 DH <span>bouteille de 1 L</span></p>
-                  <a href="contact.html" class="bouton bouton-contour btn-sm">Demander</a>
-              </div>
+          </div>
+        </article>
+        <article class="carte">
+          <img src="images/miel-fleurs.svg" alt="Pot de miel de fleurs">
+          <div class="carte-texte">
+            <h3>Miel de fleurs</h3>
+            <p>Un miel doux et floral, parfait pour le petit déjeuner.</p>
+            <div class="carte-bas">
+              <p class="prix">150 DH <span>pot de 500 g</span></p>
+          <a class="bouton bouton-contour btn-sm" href="contact.html">Demander</a>
             </div>
-          </article>
-
-          <!-- Produit 3 -->
-          <article class="carte">
-            <div class="carte-img-container bg-figue">
-                <img src="images/confiture-figue.svg" alt="Confiture de figue de barbarie">
+          </div>
+        </article>
+        <article class="carte">
+          <img src="images/huile-thym.svg" alt="Bouteille d'huile d'olive parfumée au thym">
+          <div class="carte-texte">
+            <h3>Huile d'olive au thym</h3>
+            <p>Notre huile d'olive parfumée au thym du Rif, pour relever vos plats.</p>
+            <div class="carte-bas">
+              <p class="prix">110 DH <span>bouteille de 50 cl</span></p>
+          <a class="bouton bouton-contour btn-sm" href="contact.html">Demander</a>
             </div>
-            <div class="carte-texte">
-              <h3>Confiture de figue de barbarie</h3>
-              <p>Douce et parfumée, préparée en petites quantités chaque été.</p>
-              <div class="carte-bas">
-                  <p class="prix">45 DH <span>pot de 350 g</span></p>
-                  <a href="contact.html" class="bouton bouton-contour btn-sm">Demander</a>
-              </div>
+          </div>
+        </article>
+        <article class="carte">
+          <img src="images/coffret.svg" alt="Coffret cadeau avec miel, huile et confiture">
+          <div class="carte-texte">
+            <h3>Coffret cadeau terroir</h3>
+            <p>Un assortiment de nos meilleurs produits pour offrir ou partager.</p>
+            <div class="carte-bas">
+              <p class="prix">300 DH <span>le coffret</span></p>
+          <a class="bouton bouton-contour btn-sm" href="contact.html">Demander</a>
             </div>
-          </article>
-
-          <!-- Produit 4 -->
-          <article class="carte">
-            <div class="carte-img-container bg-miel">
-                <img src="images/miel-fleurs_2.svg" alt="Miel de fleurs d'oranger">
-            </div>
-            <div class="carte-texte">
-              <h3>Miel de fleurs d'oranger</h3>
-              <p>Un miel doux et floral, parfait pour le petit déjeuner.</p>
-              <div class="carte-bas">
-                  <p class="prix">150 DH <span>pot de 500 g</span></p>
-                  <a href="contact.html" class="bouton bouton-contour btn-sm">Demander</a>
-              </div>
-            </div>
-          </article>
-
-          <!-- Produit 5 -->
-          <article class="carte">
-            <div class="carte-img-container bg-thym">
-                <img src="images/huile-thym_2.svg" alt="Huile d'argan torréfiée">
-            </div>
-            <div class="carte-texte">
-              <h3>Huile d'argan torréfiée</h3>
-              <p>Idéale pour assaisonner vos plats avec un goût subtil de noisette.</p>
-              <div class="carte-bas">
-                  <p class="prix">250 DH <span>bouteille de 50 cl</span></p>
-                  <a href="contact.html" class="bouton bouton-contour btn-sm">Demander</a>
-              </div>
-            </div>
-          </article>
-
-          <!-- Produit 6 -->
-          <article class="carte">
-            <div class="carte-img-container bg-figue">
-                <img src="images/coffret_2.svg" alt="Coffret cadeau terroir">
-            </div>
-            <div class="carte-texte">
-              <h3>Coffret cadeau terroir</h3>
-              <p>Un assortiment de nos meilleurs produits pour offrir ou partager.</p>
-              <div class="carte-bas">
-                  <p class="prix">300 DH <span>le coffret</span></p>
-                  <a href="contact.html" class="bouton bouton-contour btn-sm">Demander</a>
-              </div>
-            </div>
-          </article>
+          </div>
+        </article>
         </div>
-        <p class="order-note" style="margin-top: 30px; text-align: center;">* Pour commander, indiquez les produits et les quantités souhaités sur la page Contact.</p>
+        <p class="order-note">Pour commander, indiquez les produits et les quantités souhaités sur la page Contact.</p>
       </div>
     </section>
 
@@ -149,10 +120,25 @@
     <div class="conteneur pied-colonnes">
       <div>
         <h2>Coopérative Thimdrine</h2>
-        <address>Route de Selouane, Nador, Maroc<br>Tél. : <a href="tel:+212536000000">05 36 00 00 00</a><br>E-mail : <a href="mailto:contact@thimdrine.ma">contact@thimdrine.ma</a></address>
+        <address>
+          Route de Selouane, Nador, Maroc<br>
+          Tél. : <a href="tel:+212536000000">05 36 00 00 00</a><br>
+          E-mail : <a href="mailto:contact@thimdrine.ma">contact@thimdrine.ma</a>
+        </address>
       </div>
-      <div><h2>Horaires</h2><p>Du lundi au samedi<br>de 9 h à 18 h</p></div>
-      <div><h2>Plan du site</h2><ul><li><a href="index.html">Accueil</a></li><li><a href="produits.html">Nos produits</a></li><li><a href="a-propos.html">À propos</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div>
+        <h2>Horaires</h2>
+        <p>Du lundi au samedi<br>de 9 h à 18 h</p>
+      </div>
+      <div>
+        <h2>Plan du site</h2>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="produits.html">Nos produits</a></li>
+          <li><a href="a-propos.html">À propos</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
     </div>
     <p class="copyright">© 2026 Coopérative Thimdrine · Site réalisé à YouCode Nador</p>
   </footer>
